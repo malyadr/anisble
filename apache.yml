@@ -1,6 +1,5 @@
 ---
-- name: Deploy Apache and Static Website
-  host: apache
+- host: apache
   tasks:
    - name: Install packages
      apt:
