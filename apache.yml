@@ -18,4 +18,4 @@
     - name: Deploy Static Website
       copy:
         src: index.html
-        dest: {{ PATH_STORE }}
+        dest: "{{ PATH_STORE }}"
