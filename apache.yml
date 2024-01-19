@@ -18,4 +18,4 @@
     - name: Deploy Static Website
       copy:
         src: index.html
-        dest: /var/www/html/
+        dest: {{ PATH_STORE }}
