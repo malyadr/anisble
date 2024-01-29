@@ -1,6 +1,6 @@
 ---
 - name: Deploy Apache and Static Website
-  hosts: test-gce
+  hosts: test_gce
   become: yes
 
   tasks:
